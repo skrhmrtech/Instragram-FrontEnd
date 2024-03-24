@@ -1,0 +1,34 @@
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  height: 50%;
+  border-radius: 50px;
+  background: #f1f1f1;
+  overflow: hidden
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  background: #fa9de5;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #fc4ed5;
+}
+
+.cursorPointer{
+  cursor: pointer;
+}
+
+@media (max-width:450px) {
+  .Toastify .Toastify__toast-container{
+    width: 100%;
+  }
+}
